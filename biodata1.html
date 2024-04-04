@@ -1,0 +1,101 @@
+<html>
+<head>
+  <title>biodata</title>
+<script language="javascript">
+function f1(){
+if(!(document.form1.emaile.value.match(validRegex)))
+{
+alert("enter valid email id");
+}
+}
+<!--
+function f2(){
+
+if(document.form1.pwd.value!=document.form1.cpwd.value)
+{
+alert("pwd and cpwd are not same");
+}
+else if(!(document.form1.emaile.value.match(validRegex)))
+{
+alert("enter valid email id");
+}
+else if{
+document.form1.submit();
+}
+else if(document.fomr1.phone.value.length!=10){
+alert("enter valid mobile number of 10 digits");
+}
+}
+function f3(){
+document.form1.sname.value=document.form1.sname.value.toUpperCase();
+}
+charCodeAt(3)
+prints aski number...
+capital letter in name starting 
+-->
+
+</script>
+</head>
+<body>
+<h1 style="font-size:40px;" align=center ><u>BIODATA</u></h1>
+<img src="/home/user/srinidhi.jpg" height=300 width=300 align=right>
+<br><br><br>
+<form1 action="/action">
+<table align=center width=60%>
+<tr><td width=50%><font size=25>Name</font></td><td align=center><input type=text placeholder="enter ur name"size=30 style="font-size:32px"></td></tr>
+
+<tr><td width=50%><font size=25>email</font></td><td align=center><input type=text placeholder="enter ur email" onClick="f1()" size=30 style="font-size:32px"></td></tr>
+
+<tr><td width=50%><font size=25>Password</font></td><td align=center>
+<input placeholder="enter ur password"type=password size=30 style="font-size:32px">
+
+<tr><td width=50%><font size=25>Password</font></td><td align=center>
+<input placeholder="conform ur password"type=password size=30 style="font-size:32px">
+
+<tr><td width=50%><font size=25>DoB</font></td><td align=center><input type=date size=30 style="font-size:32px"></td></tr>
+
+<tr><td width=50%><font size=25>Languages known</font></td><td align=center>
+<font size=25>English</font><input type=checkbox id=lang name=lang size=30 style="font-size:32px;height:30px;width:20px">&nbsp;&nbsp;&nbsp;&nbsp;
+<font size=25>Telugu</font><input type=checkbox id=lang name=lang size=30 style="font-size:32px;height:30px;width:20px">&nbsp;&nbsp;&nbsp;&nbsp;
+<font size=25>Hindi</font><input type=checkbox id=lang name=lang size=30 style="font-size:32px;height:30px;width:20px">&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
+
+<tr><td width=50%><font size=25>Color</font></td>
+<td align=center>
+<input type=color size=30 style="font-size:32px"></td></tr>
+
+
+<tr><td width=50%><font size=25>Address</font></td><td align=center><textarea cols=30 rows=4 style="font-size:32px"></textarea></td></tr>
+
+<tr><td width=50%><font size=25>Gender</font></td><td align=center>
+<font size=20>Male </font><input type=radio id=gender name=gender size=30 style="font-size:32px;height:30px;width:20px" size=25>
+&nbsp;&nbsp;&nbsp;
+<font  size=20>Female</font><input type=radio id=gender name=gender size=30 style="font-size:32px;height:30px;width:20px">
+</td></tr>
+
+<tr><td width=50%><font size=25>CGPA rating</font></td><td align=center><input type=range size=30 style="font-size:32px"></td></tr>
+
+<tr><td width=50%><font size=25>Branch</font></td><td align=center>
+<select style="font-size:32px">
+<option value=cse>CSE</option>
+<option value=cse>ECE</option>
+<option value=cse>EEE</option>
+<option value=cse>MME</option>
+<option value=cse>ChemE</option>
+<option value=cse>CE</option>
+<option value=cse>E</option>
+</select>
+</td></tr>
+
+<tr><td width=50%><font size=25>Resume</font></td><td align=center>
+<input type=file size=30 style="font-size:32px"></td></tr>
+
+</form1>
+</table>
+<br><br>
+<div align=center >
+
+<button type="submit" style="height:50px;width:100px">submit</button>
+<button type="reset" style="height:50px;width:100px">reset</button>
+<button type="print" style="height:50px;width:100px">print</button>
+</div>
+</body>
